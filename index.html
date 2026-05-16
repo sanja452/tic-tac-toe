@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Animation -->
+    <div class="bg-animation"></div>
+
+    <div class="msg-conteiner hide">
+        <p id="mag-content">Winner</p>
+
+        <div class="buttons">
+            <button class="btn">
+                <span></span>
+                <p data-start="good luck!" 
+                   data-text="start!" 
+                   data-title="new game"></p>
+            </button>
+        </div>
+    </div>
+
+    <main>
+
+        <h1>Tic-Tac-Toe🎮</h1>
+
+        <div class="container">
+            <div class="content">
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+
+            </div>
+        </div>
+
+        <button>
+
+            Reset Game
+
+            <div id="clip">
+
+                <div id="leftTop" class="corner"></div>
+                <div id="rightBottom" class="corner"></div>
+                <div id="rightTop" class="corner"></div>
+                <div id="leftBottom" class="corner"></div>
+
+            </div>
+
+            <span id="rightArrow" class="arrow"></span>
+            <span id="leftArrow" class="arrow"></span>
+
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
